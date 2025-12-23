@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const CHRISTMAS_TARGET = new Date("December 23, 2025 15:45:00").getTime();
+    const CHRISTMAS_TARGET = new Date("December 25, 2025 00:00:00").getTime();
     function updateCountdown() {
         const now = new Date().getTime();
         const distance = CHRISTMAS_TARGET - now;
@@ -83,9 +83,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let senderName = (wish.name || '').trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
     const nameToImage = {
         "hmmmm": "IMG_1746028995033_1766462893938.jpg",
-        "hmmm": "IMG_1746037023070_1766462919003.jpg",
-        "hmmmmm": "IMG_1746037036611_1766462920500.jpg",
-        "day": "đây.jpg",
+        "hmmm": "1.jpg",
+        "hmmmmm": "12.jpg",
+        "day": "12.jpg",
         "gia dinh": "6c100b7f-824c-494c-8d61-fea115a4a079.jpg",
         "bo": "6e3a0e9c-cf03-4e96-82c1-f10bddd7be32.jpg",
         "ch": "59fa8137-b627-40ed-8557-a62c2cafcc5e.jpg",
